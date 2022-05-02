@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="hellocucumber.RunCucumberTest" time="0.22" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/bpracht/rsi/cucumber-test/hellocucumber/target/test-classes:/home/bpracht/rsi/cucumber-test/hellocucumber/target/classes:/home/bpracht/.m2/repository/io/cucumber/cucumber-java/7.0.0/cucumber-java-7.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/cucumber-core/7.0.0/cucumber-core-7.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/cucumber-gherkin/7.0.0/cucumber-gherkin-7.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.0.0/cucumber-gherkin-messages-7.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/home/bpracht/.m2/repository/io/cucumber/tag-expressions/4.0.2/tag-expressions-4.0.2.jar:/home/bpracht/.m2/repository/io/cucumber/cucumber-expressions/13.0.1/cucumber-expressions-13.0.1.jar:/home/bpracht/.m2/repository/io/cucumber/datatable/7.0.0/datatable-7.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/cucumber-plugin/7.0.0/cucumber-plugin-7.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/docstring/7.0.0/docstring-7.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/create-meta/6.0.1/create-meta-6.0.1.jar:/home/bpracht/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/bpracht/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.0.0/cucumber-junit-platform-engine-7.0.0.jar:/home/bpracht/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/home/bpracht/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/bpracht/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/bpracht/.m2/repository/org/junit/platform/junit-platform-suite/1.8.1/junit-platform-suite-1.8.1.jar:/home/bpracht/.m2/repository/org/junit/platform/junit-platform-suite-api/1.8.1/junit-platform-suite-api-1.8.1.jar:/home/bpracht/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.8.1/junit-platform-suite-engine-1.8.1.jar:/home/bpracht/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.8.1/junit-platform-suite-commons-1.8.1.jar:/home/bpracht/.m2/repository/org/junit/platform/junit-platform-launcher/1.8.1/junit-platform-launcher-1.8.1.jar:/home/bpracht/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/home/bpracht/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/bpracht/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/home/bpracht/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/home/bpracht/java/jdk-17.0.2/lib"/>
+    <property name="sun.java.command" value="/home/bpracht/rsi/cucumber-test/hellocucumber/target/surefire/surefirebooter2422370161012234399.jar /home/bpracht/rsi/cucumber-test/hellocucumber/target/surefire 2022-05-01T23-48-09_852-jvmRun1 surefire1345293046260639428tmp surefire_06071622095485762216tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/bpracht/rsi/cucumber-test/hellocucumber/target/test-classes:/home/bpracht/rsi/cucumber-test/hellocucumber/target/classes:/home/bpracht/.m2/repository/io/cucumber/cucumber-java/7.0.0/cucumber-java-7.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/cucumber-core/7.0.0/cucumber-core-7.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/cucumber-gherkin/7.0.0/cucumber-gherkin-7.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.0.0/cucumber-gherkin-messages-7.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/home/bpracht/.m2/repository/io/cucumber/tag-expressions/4.0.2/tag-expressions-4.0.2.jar:/home/bpracht/.m2/repository/io/cucumber/cucumber-expressions/13.0.1/cucumber-expressions-13.0.1.jar:/home/bpracht/.m2/repository/io/cucumber/datatable/7.0.0/datatable-7.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/cucumber-plugin/7.0.0/cucumber-plugin-7.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/docstring/7.0.0/docstring-7.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/home/bpracht/.m2/repository/io/cucumber/create-meta/6.0.1/create-meta-6.0.1.jar:/home/bpracht/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/bpracht/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.0.0/cucumber-junit-platform-engine-7.0.0.jar:/home/bpracht/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/home/bpracht/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/bpracht/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/bpracht/.m2/repository/org/junit/platform/junit-platform-suite/1.8.1/junit-platform-suite-1.8.1.jar:/home/bpracht/.m2/repository/org/junit/platform/junit-platform-suite-api/1.8.1/junit-platform-suite-api-1.8.1.jar:/home/bpracht/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.8.1/junit-platform-suite-engine-1.8.1.jar:/home/bpracht/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.8.1/junit-platform-suite-commons-1.8.1.jar:/home/bpracht/.m2/repository/org/junit/platform/junit-platform-launcher/1.8.1/junit-platform-launcher-1.8.1.jar:/home/bpracht/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/home/bpracht/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/bpracht/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/home/bpracht/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/bpracht"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="/home/bpracht/java/jdk-17.0.2"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/bpracht/rsi/cucumber-test/hellocucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/bpracht/rsi/cucumber-test/hellocucumber/target/surefire/surefirebooter2422370161012234399.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="bpracht"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.4.0-88-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/bpracht/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="/home/bpracht/rsi/cucumber-test/hellocucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Sunday isn&apos;t Friday" classname="Is it Friday yet?" time="0.087">
+    <system-out><![CDATA[
+Scenario: Sunday isn't Friday        &amp#27;[90m# hellocucumber/is_it_friday_yet.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is Sunday&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.today_is_Sunday()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask whether it's Friday yet&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.i_ask_whether_it_s_Friday_yet()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nope"&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
